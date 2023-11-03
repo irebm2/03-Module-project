@@ -1,0 +1,13 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+#me {
+    font-size:;
+    color: blue;
+    font-weight: bolder;
+}
+.navbar {
+    height: 10vh;
+}
+
