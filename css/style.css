@@ -54,7 +54,7 @@ body {
     height: auto;
     margin: 10px;
 }
-.card img {
+.skill img {
     border-radius: 5%;
     max-height: 150px;
     object-fit: cover;
@@ -65,7 +65,11 @@ body {
     font-size: 16px;
     color: rgb(130, 117, 252);
 }
-#HnM {
-    background-image: url("../images/hnm.avif");
-    height: 400px;
+.sample img {
+    border-radius: 5%;
+    height: 300px;
+    object-fit: cover;
+}
+.sample {
+    height: 500px;
 }
