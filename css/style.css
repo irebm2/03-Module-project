@@ -1,13 +1,24 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Passeio Test', Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
     text-decoration: none;
 }
+
 #me {
-    font-size:;
-    color: blue;
-    font-weight: bolder;
+    font-size: 4vw;
+    color: rgb(88, 88, 226);
+    font-weight: bold;
+}
+.nav-item {
+    font-size: 2vw;
 }
 .navbar {
-    height: 10vh;
+    height: 15%;
+    font-weight: bold;
 }
 
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: end;
+    justify-content: flex-end;
+}
