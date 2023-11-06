@@ -4,16 +4,18 @@ body {
 }
 
 #me {
-    font-size: 4vw;
-    color: rgb(88, 88, 226);
+    font-size: 35px;
     font-weight: bold;
 }
+
 .nav-item {
     font-size: 20px;
 }
+
 .navbar {
     height: 17%;
     font-weight: bold;
+    background-color: rgb(139, 114, 228, 0.8);
 }
 
 .navbar-collapse {
@@ -22,16 +24,19 @@ body {
     align-items: end;
     justify-content: flex-end;
 }
+
 .avatar {
     border-radius: 50%;
     width: 230px;
     height: 200px;
 }
+
 .btn {
     background-color: rgb(146, 120, 238);
     border: 0px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
 }
+
 .row {
     --bs-gutter-x: 1.5rem;
     --bs-gutter-y: 0;
@@ -44,16 +49,24 @@ body {
     align-content: center;
     justify-content: space-evenly;
     align-items: center;
-    margin: 15px;
+    margin: 0px;
+    border: 0px;
 }
+
+.hero {
+    margin: 0px;
+    border: 0px;
+}
+
 .hero p {
-    font-size: 16px;
+    font-size: 12px;
 }
 
 .card {
     height: auto;
     margin: 10px;
 }
+
 .skill img {
     border-radius: 5%;
     max-height: 150px;
@@ -65,11 +78,38 @@ body {
     font-size: 16px;
     color: rgb(130, 117, 252);
 }
+
 .sample img {
     border-radius: 5%;
     height: 300px;
     object-fit: cover;
 }
+
 .sample {
     height: 500px;
+}
+
+.card:hover {
+    transform: scale(0.9);
+    transition: 0.3s;
+}
+
+.mangoimg {
+    object-position: bottom;
+}
+
+#contact label {
+    margin: 15px;
+}
+
+#contact {
+    background-color: rgb(139, 114, 228, 0.8);
+}
+
+.nav-item {
+    margin: 15px;
+}
+footer a:hover {
+    transition: 0.4s;
+    zoom: 1.2;
 }
