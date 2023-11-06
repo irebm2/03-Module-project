@@ -59,3 +59,14 @@ body {
     max-height: 150px;
     object-fit: cover;
 }
+
+.link {
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(130, 117, 252);
+}
+#HnM {
+    background-image: url("../images/hnm.avif");
+    height: 400px;
+    background-position: center;
+}
